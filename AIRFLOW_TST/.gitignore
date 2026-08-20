@@ -1,0 +1,9 @@
+# Airflow generated files
+logs/
+__pycache__/
+*.pyc 
+airflow-webserver.pid
+
+# local Airflow configuration
+airflow.cfg 
+webserver_config.py 
