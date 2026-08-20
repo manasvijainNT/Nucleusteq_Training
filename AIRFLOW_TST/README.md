@@ -68,7 +68,7 @@ The receive_order task passes:
 • toppings.
 ```
 The check_stock task also passes ingredients_available to skip_preparation.
-![image](screenshots/Xcom.png)
+![image](/AIRFLOW_TST/Screenshots/Xcom.png)
 ---
 
 ### 5. Skip Condition
@@ -101,16 +101,16 @@ Airflow’s task logger is used to record important events such as:
 - Reason for skipping a task.
 ---
 ### 8. DAG Graph Screenshot
-![image](screenshots/Flow1.png)
-![image](screenshots/Flow2.png)
+![image](/AIRFLOW_TST/Screenshots/Flow1.png)
+![image](/AIRFLOW_TST/Screenshots/Flow2.png)
 ---
 
 ### 9. Airflow API Trigger Screenshot
 
 The DAG was triggered using the Airflow REST API through Swagger.
 
-![image](screenshots/Swagger1.png)
-![image](screenshots/Swagger2.png)
+![image](/AIRFLOW_TST/Screenshots/Swagger1.png)
+![image](/AIRFLOW_TST/Screenshots/Swagger2.png)
 
 ---
 
